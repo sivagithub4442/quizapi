@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.scoreboard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    height: 300px; /* Set your desired height */
+    width: 300px; /* Set your desired width */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.scoreboard:hover {
+    box-shadow: 3px 5px 10px 2px rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+.bg {
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+/* Add more styles as needed */
